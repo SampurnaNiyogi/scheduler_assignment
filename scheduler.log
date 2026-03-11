@@ -1,0 +1,56 @@
+2026-03-11 12:59:54 - [INFO] - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 12:59:54 - [INFO] - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 12:59:54 - [INFO] - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-11 12:59:54 - [INFO] - Added job "heartbeat_job" to job store "default"
+2026-03-11 12:59:54 - [INFO] - Added job "reminder_job" to job store "default"
+2026-03-11 12:59:54 - [INFO] - Added job "startup_job" to job store "default"
+2026-03-11 12:59:54 - [INFO] - Scheduler started
+2026-03-11 12:59:54 - [INFO] - Scheduler started. Running for 2 minutes...
+2026-03-11 13:00:04 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:04 IST)" (scheduled at 2026-03-11 13:00:04.481862+05:30)
+2026-03-11 13:00:04 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:00:04
+2026-03-11 13:00:04 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:14 IST)" executed successfully
+2026-03-11 13:00:14 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:24 IST)" (scheduled at 2026-03-11 13:00:14.481862+05:30)
+2026-03-11 13:00:14 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:00:14
+2026-03-11 13:00:14 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:24 IST)" executed successfully
+2026-03-11 13:00:24 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:34 IST)" (scheduled at 2026-03-11 13:00:24.481862+05:30)
+2026-03-11 13:00:24 - [INFO] - Running job "startup_job (trigger: date[2026-03-11 13:00:24 IST], next run at: 2026-03-11 13:00:24 IST)" (scheduled at 2026-03-11 13:00:24.481862+05:30)
+2026-03-11 13:00:24 - [INFO] - Removed job 58aa883267994556b7cfb26bf498cba3
+2026-03-11 13:00:24 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:00:24
+2026-03-11 13:00:24 - [INFO] - [STARTUP] One-time setup task completed at: 2026-03-11 13:00:24
+2026-03-11 13:00:24 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:34 IST)" executed successfully
+2026-03-11 13:00:24 - [INFO] - Job "startup_job (trigger: date[2026-03-11 13:00:24 IST], next run at: 2026-03-11 13:00:24 IST)" executed successfully
+2026-03-11 13:00:34 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:44 IST)" (scheduled at 2026-03-11 13:00:34.481862+05:30)
+2026-03-11 13:00:34 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:00:34
+2026-03-11 13:00:34 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:44 IST)" executed successfully
+2026-03-11 13:00:44 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:54 IST)" (scheduled at 2026-03-11 13:00:44.481862+05:30)
+2026-03-11 13:00:44 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:00:44
+2026-03-11 13:00:44 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:00:54 IST)" executed successfully
+2026-03-11 13:00:54 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:04 IST)" (scheduled at 2026-03-11 13:00:54.481862+05:30)
+2026-03-11 13:00:54 - [INFO] - Running job "reminder_job (trigger: interval[0:01:00], next run at: 2026-03-11 13:01:54 IST)" (scheduled at 2026-03-11 13:00:54.481862+05:30)
+2026-03-11 13:00:54 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:00:54
+2026-03-11 13:00:54 - [INFO] - [REMINDER] Reminder triggered at: 2026-03-11 13:00:54
+2026-03-11 13:00:54 - [INFO] - Job "reminder_job (trigger: interval[0:01:00], next run at: 2026-03-11 13:01:54 IST)" executed successfully
+2026-03-11 13:00:54 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:04 IST)" executed successfully
+2026-03-11 13:01:04 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:14 IST)" (scheduled at 2026-03-11 13:01:04.481862+05:30)
+2026-03-11 13:01:04 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:01:04
+2026-03-11 13:01:04 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:14 IST)" executed successfully
+2026-03-11 13:01:14 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:24 IST)" (scheduled at 2026-03-11 13:01:14.481862+05:30)
+2026-03-11 13:01:14 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:01:14
+2026-03-11 13:01:14 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:24 IST)" executed successfully
+2026-03-11 13:01:24 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:34 IST)" (scheduled at 2026-03-11 13:01:24.481862+05:30)
+2026-03-11 13:01:24 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:01:24
+2026-03-11 13:01:24 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:34 IST)" executed successfully
+2026-03-11 13:01:34 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:44 IST)" (scheduled at 2026-03-11 13:01:34.481862+05:30)
+2026-03-11 13:01:34 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:01:34
+2026-03-11 13:01:34 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:44 IST)" executed successfully
+2026-03-11 13:01:44 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:54 IST)" (scheduled at 2026-03-11 13:01:44.481862+05:30)
+2026-03-11 13:01:44 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:01:44
+2026-03-11 13:01:44 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:01:54 IST)" executed successfully
+2026-03-11 13:01:54 - [INFO] - Running job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:02:04 IST)" (scheduled at 2026-03-11 13:01:54.481862+05:30)
+2026-03-11 13:01:54 - [INFO] - Running job "reminder_job (trigger: interval[0:01:00], next run at: 2026-03-11 13:02:54 IST)" (scheduled at 2026-03-11 13:01:54.481862+05:30)
+2026-03-11 13:01:54 - [INFO] - [HEARTBEAT] Task ran at: 2026-03-11 13:01:54
+2026-03-11 13:01:54 - [INFO] - Job "heartbeat_job (trigger: interval[0:00:10], next run at: 2026-03-11 13:02:04 IST)" executed successfully
+2026-03-11 13:01:54 - [INFO] - [REMINDER] Reminder triggered at: 2026-03-11 13:01:54
+2026-03-11 13:01:54 - [INFO] - Job "reminder_job (trigger: interval[0:01:00], next run at: 2026-03-11 13:02:54 IST)" executed successfully
+2026-03-11 13:01:54 - [INFO] - Scheduler has been shut down
+2026-03-11 13:01:54 - [INFO] - [SHUTDOWN] Scheduler stopped. All jobs completed.
