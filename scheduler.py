@@ -18,3 +18,4 @@ def reminder_job():
 def startup_job():
     curr_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     logger_object.info(f"[STARTUP] One-time setup task completed at: {curr_time}")
+    
